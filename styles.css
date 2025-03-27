@@ -1,0 +1,102 @@
+
+/* carousel for slide */
+
+.carousel-inner > .carousel-item > .carousel-caption{
+  padding-bottom: 0;
+}
+.carousel-item img{
+  height: 100vh;
+}
+.photo{
+  background-image: url("images/img1.jpeg");
+  background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+  height: 100vh;
+}
+.photo1{
+  background-image: url("images/img2.jpg");
+  background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+  height: 100vh;
+}
+.photo2{
+  background-image: url("images/img3.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  height: 100vh;
+}
+.photo3{
+  background-image: url("images/img4.jpg");
+  background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+  height: 100vh;
+}
+
+/* hash title */
+
+.droct1{
+  display: flex;
+  justify-content: center;;
+}
+.droct1 a:hover{
+ color:black;
+}
+.cols1{
+  text-align: center;
+  padding-top: 1%;
+  position: absolute;
+  left: 5%;
+  top: 4%;
+}
+.cols2{
+  position: absolute;
+  top:4%;
+}
+.cols1 a,.cols2 h1{
+  color:black;
+}
+.menu1{
+  padding-left: 40px;
+  text-decoration: none;
+  color: black;
+}
+.icon1{
+  color: black;
+}
+.fa{
+  font-size: larger;
+}
+div h5 h3{
+  position: absolute;
+  top: 5%;
+}
+
+.info1{
+  line-height: 1.5rem;
+  padding-left: 20x;
+  padding-right: 20px;
+  color: whitesmoke;
+  font-size:small;
+}
+.info2{
+  line-height: 2rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px ;
+  font-weight: 500;
+  color: azure;
+  font-size:large;
+}
+
+
+@media (max-width: 768px) {
+
+ .cols1 .menu1{
+        display: none;
+    }
+
+}
